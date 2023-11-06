@@ -1,14 +1,13 @@
+import { Calistoga } from 'next/font/google';
 import Menu from '../components/Menu'
-import Image from 'next/image'
+
 
 
 export default function Home() {
   return (
-    <>
-      <Menu />
-      <div className='banner'>
-          
-      </div>
+    <> 
+      <Menu/>
+      
     </>
   )
 }
